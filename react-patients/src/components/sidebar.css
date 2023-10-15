@@ -1,0 +1,15 @@
+.sidebar-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar-link {
+  font-size: 2rem;
+  color: grey;
+}
+
+.sidebar-link:hover {
+  font-weight: bold;
+  color: #1e293b;
+}
