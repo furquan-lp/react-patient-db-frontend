@@ -12,7 +12,7 @@
   transition: all;
   transition-duration: 200ms;
   font-size: 2rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   padding: 0.5rem 2rem;
   color: grey;
 }
@@ -20,4 +20,12 @@
 .sidebar-link:hover {
   color: #1e293b;
   background-color: #e2e8f0;
+}
+
+.sidebar-logo {
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: monospace;
+  color: #10b981;
 }
