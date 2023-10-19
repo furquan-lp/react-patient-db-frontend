@@ -1,12 +1,11 @@
 import './sidebar.css';
 
-export default function SideBar() {
+export default function SideBar({ selected }: { selected: number }) {
+  const links = ['Add Patient', 'Edit Patient', 'Search', 'Select File'];
   return (
     <nav className="sidebar-main">
-      <span className="sidebar-link">Add Patient</span>
-      <span className="sidebar-link">Edit Patient</span>
-      <span className="sidebar-link">Search</span>
-      <span className="sidebar-link">Select File</span>
+      <span className="sidebar-logo">Dashboard v0.5</span>
+      {links.map((l, i) => <span className={`${i === selected ? 'sidebar-link-selected' : 'sidebar-link'}`}>{l}</span>)}
     </nav>
   );
 }
