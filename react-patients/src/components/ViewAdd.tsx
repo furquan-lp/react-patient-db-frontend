@@ -4,7 +4,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 
 export default function ViewAdd() {
   return (
-    <Box sx={{ my: 4, gap: 2, display: 'flex', flexDirection: 'column' }}>
+    <Box sx={{ my: 4, gap: 3, display: 'flex', flexDirection: 'column' }}>
       <Card sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', p: 2, height: 1 / 5, width: 700 }}>
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3, }}>
           <Box sx={{ display: 'flex', gap: 4 }}>
