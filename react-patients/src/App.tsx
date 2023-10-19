@@ -5,7 +5,7 @@ function App() {
   const l = 0;
   return (
     <main className='app-main'>
-      <SideBar />
+      <SideBar selected={0} />
       <ViewAdd />
     </main>
   );
