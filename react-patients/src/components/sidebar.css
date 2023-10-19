@@ -4,9 +4,13 @@
   gap: 1rem;
   background-color: #f1f5f9;
   height: 100vh;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-color: rgb(226 232 240);
 }
 
-.sidebar-link {
+.sidebar-link,
+.sidebar-link-selected {
   cursor: pointer;
   user-select: none;
   transition: all;
@@ -17,7 +21,8 @@
   color: grey;
 }
 
-.sidebar-link:hover {
+.sidebar-link:hover,
+.sidebar-link-selected {
   color: #1e293b;
   background-color: #e2e8f0;
 }
@@ -28,4 +33,5 @@
   font-weight: bold;
   font-family: monospace;
   color: #10b981;
+  user-select: none;
 }
