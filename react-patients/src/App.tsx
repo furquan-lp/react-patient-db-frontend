@@ -1,12 +1,12 @@
 import SideBar from "./components/SideBar";
 import ViewAdd from "./components/ViewAdd";
+import ViewEdit from "./components/ViewEdit";
 
 function App() {
-  const l = 0;
   return (
     <main className='app-main'>
-      <SideBar selected={0} />
-      <ViewAdd />
+      <SideBar selected={1} />
+      <ViewEdit />
     </main>
   );
 }
